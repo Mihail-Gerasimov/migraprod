@@ -1,0 +1,274 @@
+@media (max-width: 1440px) {
+    .offer__inner {
+        max-width: 560px;
+    }
+
+    .offer__inner-subtitle {
+        max-width: inherit;
+    }
+
+    .offer__wrapper img {
+        max-width: inherit;
+    }
+
+    .reviews__wrapper-card {
+        max-width: 49.3%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav {
+        margin-bottom: 50px;
+    }
+
+    .header__wrapper>img {
+        max-width: 450px;
+    }
+
+    .header__inner {
+        max-width: 540px;
+    }
+
+    .header__inner-subtitle {
+        font-size: 20px;
+    }
+
+    .header__inner-btn {
+        margin-bottom: 44px;
+    }
+
+    .argument__wrapper-card {
+        max-width: 49%;
+    }
+
+    .advantages .container {
+        padding-top: 300px;
+    }
+
+    .offer {
+        min-height: 420px;
+    }
+
+    .offer__wrapper img {
+        max-width: inherit;
+    }
+
+    .offer__inner {
+        max-width: 440px;
+    }
+
+    .offer__inner-subtitle {
+        font-size: 19px;
+    }
+
+    .offer__inner-btn {
+        margin-bottom: 44px;
+    }
+
+    .reviews__wrapper-card {
+        max-width: 49.2%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__wrapper>img {
+        max-width: 350px;
+    }
+
+    .header__inner {
+        max-width: 390px;
+    }
+
+    .header__inner-subtitle {
+        font-size: 17px;
+    }
+
+    .header__inner-btn {
+        margin-bottom: 20px;
+    }
+
+    .header__inner-text {
+        font-size: 14px;
+    }
+
+    .argument__wrapper-card {
+        max-width: 48.9%;
+    }
+
+    .offer {
+        min-height: 350px;
+    }
+
+    .offer__wrapper img {
+        max-width: 330px;
+    }
+
+    .offer__inner {
+        max-width: 425px;
+    }
+
+    .offer__inner-subtitle {
+        font-size: 18px;
+    }
+
+    .big {
+        margin: 40px 0;
+    }
+
+    .big__btn {
+        font-size: 25px !important;
+        padding: 25px 0 !important;
+    }
+
+    .reviews__wrapper-card {
+        max-width: 48.9%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__wrapper {
+        row-gap: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .header__inner {
+        max-width: 500px;
+    }
+
+    .header__title {
+        margin-bottom: 10px;
+    }
+
+    .header__inner-subtitle {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        max-width: 25px;
+    }
+
+    .header__title {
+        font-size: 40px !important;
+    }
+
+    .argument__scroll {
+        overflow-y: hidden;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .argument__wrapper {
+        flex-wrap: nowrap;
+        gap: 16px 16px;
+        align-items: flex-start;
+
+        &-card {
+            min-width: 400px;
+        }
+
+    }
+
+    .argument__arr {
+        display: flex;
+    }
+
+    .advantages__wrapper {
+        overflow-y: hidden;
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        &-card {
+            min-width: max-content;
+        }
+    }
+
+    .advantages__arr {
+        display: flex;
+    }
+
+    .offer {
+        min-height: auto;
+        padding: 32px 0;
+    }
+
+    .offer__wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .offer__inner {
+        text-align: start;
+    }
+
+    .offer__inner-text {
+        margin-left: 0;
+        max-width: inherit;
+        margin-bottom: 30px;
+    }
+
+    .offer__inner-btn {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .offer__wrapper img {
+        max-width: 100%;
+    }
+
+    .reviews__wrapper {
+        overflow-y: hidden;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+    .reviews__wrapper-card {
+        max-width: inherit;
+        min-width: 300px;
+    }
+
+    .reviews__arr {
+        display: flex;
+    }
+
+    .reviews__subtitle {
+        font-size: 15px;
+    }
+
+    .reviews__wrapper-card_description {
+        font-size: 14px;
+    }
+
+    .quiz__title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 575px) {
+    .argument__wrapper-card {
+        min-width: 290px;
+    }
+
+    .argument__wrapper-card p:first-child {
+        font-size: 22px;
+    }
+
+    .argument__wrapper-card p:last-child {
+        font-size: 17px;
+    }
+
+    .footer__inner p:last-child {
+        max-width: 270px;
+    }
+}
+
+@media (max-width: 475px) {}

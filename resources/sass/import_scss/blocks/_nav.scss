@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+
+    &__num {
+        font-size: 16px;
+        letter-spacing: -0.04em;
+        color: #1c1b1f;
+        display: flex;
+        align-items: center;
+        column-gap: 4px;
+    }
+}

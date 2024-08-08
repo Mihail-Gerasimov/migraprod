@@ -1,0 +1,59 @@
+.advantages {
+    min-height: 640px;
+    background-image: url("../img/advantages/bacground.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    .container {
+        padding-top: 340px;
+    }
+
+    &__arr {
+        display: none;
+        align-items: center;
+        column-gap: 5px;
+        margin-top: 20px;
+
+        p {
+            font-size: 15px;
+            color: #ffffff;
+        }
+    }
+
+    &__title {
+        margin-bottom: 4px;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        column-gap: 16px;
+
+        &-card {
+            border-radius: 10px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+
+            p {
+                font-weight: 600;
+                font-size: 20px;
+                margin: 8px 0 4px;
+            }
+
+            p:last-child {
+                font-size: 16px;
+                margin: 0;
+                font-weight: 400;
+            }
+        }
+    }
+}

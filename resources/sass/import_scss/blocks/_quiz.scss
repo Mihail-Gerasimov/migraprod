@@ -1,0 +1,185 @@
+.quiz {
+    position: fixed;
+    z-index: 199;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: auto;
+    background: #282828;
+    backdrop-filter: blur(15px);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+
+    background-image: url("../img/quiz/bacground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &--active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__container {
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #fff;
+    }
+
+    &__close {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 25px;
+        padding: 0;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+    }
+
+    &__wrapper {
+        width: 100%;
+        max-width: 550px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 20px;
+
+        &-questions {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            min-width: fit-content;
+
+            &__label {
+                display: flex;
+                align-items: center;
+                column-gap: 20px;
+            }
+
+            &__input {
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+                border: 1px solid #ffffff;
+                background-color: transparent;
+                cursor: pointer;
+                appearance: none;
+                margin: 0;
+                position: relative;
+
+                &:hover {
+                    border: 1px solid #ffffff;
+                }
+
+                &:checked::before {
+                    content: "";
+                    position: absolute;
+                    display: table;
+                    width: 14px;
+                    height: 14px;
+                    border-radius: 50%;
+                    background-color: #ffffff;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+
+            &__text {
+                font-weight: 600;
+                font-size: 16px;
+                letter-spacing: -0.02em;
+                color: #fff;
+            }
+        }
+
+        &-btns {
+            display: flex;
+            align-items: center;
+            column-gap: 20px;
+
+            &__next {
+                color: #1c1b1f !important;
+                background-color: #fff !important;
+            }
+
+            &__prev {
+                background-color: transparent;
+                margin: 0;
+                padding: 0;
+                height: 52px;
+                width: 52px;
+                border-radius: 50%;
+                border: 1px solid white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                svg {
+                    transform: rotate(180deg);
+                }
+
+                &:hover {
+                    border: 1px solid white;
+                }
+            }
+        }
+    }
+
+    &__last {
+        width: 100%;
+        max-width: 550px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 30px;
+
+        &-description {
+            font-size: 16px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: #fff;
+        }
+
+        &-form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+            row-gap: 30px;
+
+            &__num {
+                font-weight: 600;
+                font-size: 20px;
+                letter-spacing: -0.02em;
+                color: rgba(255, 255, 255, 0.5);
+                border: 1px solid #fff;
+                background-color: transparent;
+                border-radius: 500px;
+                padding: 16px 24px;
+                width: 100%;
+
+                &:hover {
+                    border: 1px solid #fff;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@import "./stylesheet";
+//
+@import "./import_scss/base";
+//
+@import "./import_scss/blocks/nav";
+@import "./import_scss/blocks/header";
+@import "./import_scss/blocks/argument";
+@import "./import_scss/blocks/advantages";
+@import "./import_scss/blocks/offer";
+@import "./import_scss/blocks/big";
+@import "./import_scss/blocks/reviews";
+@import "./import_scss/blocks/footer";
+@import "./import_scss/blocks/quiz";
+@import "./import_scss/blocks/modal";
+@import "./import_scss/blocks/thanks";
+
+// 
+@import "./import_scss/reuse/colors";
+@import "./import_scss/reuse/weight";
+@import "./import_scss/reuse/btn";
+@import "./import_scss/reuse/title";
+//
+@import "./media";

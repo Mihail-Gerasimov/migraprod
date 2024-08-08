@@ -1,0 +1,48 @@
+.thanks__card {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background-image: url("../img/quiz/bacground.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.thanks__message {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    border: 1px solid #FF7425;
+    padding: 20px;
+    width: 100%;
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+
+    &-close {
+        font-size: 25px;
+        color: #FF7425;
+
+        &-btn {
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: -0.02em;
+            color: #1c1b1f;
+            background-color: #ebf2ff;
+            padding: 16px 24px;
+            border-radius: 500px;
+        }
+    }
+
+    p {
+        font-weight: 700;
+        font-size: 40px;
+        letter-spacing: -0.02em;
+        color: #fff;
+    }
+}

@@ -1,0 +1,39 @@
+.header {
+    padding: 23px 0 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        max-width: 640px;
+
+        &-subtitle {
+            font-size: 24px;
+            letter-spacing: -0.04em;
+            margin-bottom: 20px;
+        }
+
+        &-btn {
+            margin-bottom: 88px;
+        }
+
+        &-text {
+            margin-bottom: 20px;
+            font-size: 16px;
+            letter-spacing: -0.02em;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+}
